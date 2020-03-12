@@ -8,7 +8,7 @@ class Admin extends CI_Controller {
 		$this->load->helper(array('form', 'url'));
 		$this->load->library('email');
 		$this->load->model('model');
-     //   $this->load->library('MyPHPMailer'); 
+     //   $this->load->library('MyPHPMailer'); a
 		 if (!$this->session->userdata('nama_admin')) {
 
 			redirect(base_url('Utama'));
