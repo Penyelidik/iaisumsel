@@ -95,7 +95,12 @@
                                         </a>
                                         
                                     </li>
+                                    <li class="nav-item ">
+                                        <a class="nav-link" href="<?php echo site_url('kra/');?>" id="sub-nav1" data-toggle="" aria-haspopup="true" aria-expanded="false">
+                                            KRA
+                                        </a>
 
+                                    </li>
                                     <li class="nav-item dropdown">
                                         <a class="nav-link " href="#" id="sub-nav2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                             Tentang IAI
