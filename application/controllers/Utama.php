@@ -17,6 +17,7 @@ class Utama extends My_Controller {
 
 	public function index()
 	{
+		//tes
 		$data["title"] = 'Beranda :: IAI Sumatera Selatan';
 		$this->db->order_by('berita_tanggal', 'DESC');
 		$data["berita"] = $this->db->get('tbl_berita');
